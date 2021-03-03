@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
   padding: 0.5in; 
   width: 8.5in;
-  height: 11in;
+  height: 15in;
   background-color: rgb(233,227,218);
   box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
 }
@@ -101,6 +101,28 @@ a:hover {
   font-size: 0.9rem;
 }
 
+.sub-certificates {
+  display: flex;
+  align-items: center;
+}
+
+.sub-certificates > p {
+  /* margin: 1rem 2rem 1rem 0; */
+  margin: 0 1rem 0 0;
+  font-size: 0.9rem;
+}
+
+.sub-award {
+  display: flex;
+  align-items: center;
+}
+
+.sub-award > p {
+  /* margin: 1rem 2rem 1rem 0; */
+  margin: 0 1rem 0 0;
+  font-size: 0.9rem;
+}
+
 .project-links {
   display: flex;
   align-items: center;
@@ -112,6 +134,27 @@ a:hover {
 
 .project-links>*:hover {
   text-decoration: underline;
+}
+
+.certificate-links {
+  display: flex;
+  align-items: center;
+}
+
+.certificate-links > * {
+  margin: 0 2px;
+}
+
+.certificate-links>*:hover {
+  text-decoration: underline;
+}
+
+.award-desc {
+  display: flex;
+}
+
+.award-desc > * {
+  margin: 0 2px;
 }
 
 ul {
